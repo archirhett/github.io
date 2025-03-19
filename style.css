@@ -440,3 +440,37 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+/* ASIDE MENU */
+
+#accordion-menu {
+  
+}
+
+<aside id="dc_jqaccordion_widget-2" class="widget ">		
+		<div class="dcjq-accordion" id="dc_jqaccordion_widget-2-item">
+		
+			<ul id="menu-menu-1" class="menu"><li id="menu-item-244" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32 current_page_item menu-item-has-children menu-item-244 dcjq-parent-li"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/" class="dcjq-parent active">HOME<span class="dcjq-icon"></span></a>
+<ul class="sub-menu" style="display: block;">
+	<li id="menu-item-246" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-246"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/home/about/">-about</a></li>
+	<li id="menu-item-245" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-245"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/home/contact/">-contact</a></li>
+</ul>
+</li>
+<li id="menu-item-240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-240 dcjq-parent-li"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/work/" class="dcjq-parent">WORK<span class="dcjq-icon"></span></a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-243"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/work/portfolio/">-portfolio</a></li>
+	<li id="menu-item-242" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/work/projects/">-projects</a></li>
+	<li id="menu-item-241" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-241"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/work/resources/">-resources</a></li>
+</ul>
+</li>
+<li id="menu-item-236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-236 dcjq-parent-li"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/play/" class="dcjq-parent">PLAY<span class="dcjq-icon"></span></a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-239"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/play/create/">-create</a></li>
+	<li id="menu-item-237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-237"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/play/explore/">-explore</a></li>
+	<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-238"><a href="https://web.archive.org/web/20161002075111/http://www.archirhett.com/play/weblog/">-weblog</a></li>
+</ul>
+</li>
+</ul>		
+		</div>
+		</aside>

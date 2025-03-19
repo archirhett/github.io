@@ -1,0 +1,101 @@
+archirhett.com/v0 -- clone of orginial 2012 wordpress themed site using html, css & js
+--https://web.archive.org/web/20161002075111/http://www.archirhett.com/
+archirhett.com/v1 -- additional work and project done up to 2025
+archirhett.com/v2 -- updated portfolio site using react
+
+_/- working \-_
+https://www.jsdelivr.com/package/npm/dcjqaccordion
+
+
+Project Lists (v0) -- ./assests
+1_atkin
+1_object
+2_cont_delay
+2_rothko
+3_crosby
+3_parkin
+3_ron
+4_ocdd
+4_redline_
+4_urban_prop_
+5_city_sense
+5_monastery_
+5_prototype
+6_edu porfolio
+
+
+Work Sample
+Professional work done with two years towards the end of 2014.
+
+Sketches
+These are some sketches mainly inspired through biking, sunny weather, and exploring the unexplainable serendipitous encounters wihtin New Orleans.
+
+Porftolio
+These are four projects done in my later years of architectural school. These projects deal with community development, interdisplinary design, sustainable solutions, computer aided and comprehensive design.
+
+Skin Prototype
+Zoning in on the City Sense Competition entry, this Skin Prototype is an extension to the real time flux as well as responsive facade at the building envelope.
+
+Urban Monastery
+The comprehensive design studio project for an Urban Monastery and soup Kitchen located on the St. Louis Arch Greenway. the occupants of the building are a private community Benedictine Monks that would provide daily services.
+
+Urban Intervetion
+The Local Adaptabel Community Engagement Spaces project proposed to connect the disenfranchised community of west Baltimore. Bringing meaning, knowledge, and information accessible to any inhabitant.
+
+Redline Competition
+Undergraduate project competittion for an urban intervetion located in Baltimore. This urban equality hydroponic structure rose awareness and understanding of the future positive changes and implications that would follow to the community of West Baltimore.
+
+City Sense Competition
+the Atchafalay Basin was site location for the proposal for the City Sense Competition. The modular rural data collection mobile would utilize the flux of real-time data to help shape future growth and development.
+
+Main Stree Workshop
+Fourth year community development project focused on the Main Street in the small historic town of Minden, Louisiana. This project was exibited to Minden town hall meeting, where the designes provoked downtown rejuvenation and historical awareness.
+
+Pedestrian Intervention
+Third year project to repurpose an under utilized parking lot on a pedestrain walking campus. Program and intent was determined by site and context analysis which resulted in a sustainable multipurpose multimodal gathering and engaging transitional node.
+
+Crosby Arboretum
+Third year projects located within the Crosby Arboretum in the small town of Picayune, Mississippi. the first project is an Interpretive Center to showcase a selective sesitive econe for the unsuspecting visitors.
+
+Ronchamp Mockup
+Thirdyear project to erect a place of sacred architecture mockup to scale and tectonically accurate. The Ronchamp mockup of the Notre Dame du Haut designed by Le Corbusier took extensive research into vernacular tectonics and historical building tecnologies of locale materails and trades.
+
+Rothko Museum
+Second year Rothko Museum project set in Houston adjacent to the Menil Collection in a heavily residential neighborhood setting with extensively sensitive museums within walking distance.
+
+Inanimate Object
+First year project discovering structure lines for irregular object.
+
+Atkinson Hall
+First year project using hierarchy of structural and spatial components to reorient and display.
+
+Continual Delay
+Second year project incorporating anticipatorial anxiousness from a procedural path of continual delay to a view on an inconspicuous object.
+
+
+
+-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/-*/
+
+WHO:  Post undergraduate in Architecture from Louisiana State University in Baton Rouge; Preprofessional working in the great city of New Orleans. Throughout school I participated in adaptive reuse community development projects, urban planning/design proposals, interdisciplinary practice with landscape architecture and computer science, and lastly (but not leastly) the use of computer aided technology from development to fabrication to production. If you would like to find out more about my school and work experience you can check out my resum�.
+
+WHAT:  This website is an ongoing digital portfolio of work and sandbox of ideas/things I find interesting. Architecturally speaking I enjoy working hands on with the community (whether big or small), incorporating innovative sustainable strategies towards a design, and emergent design technologies applied throughout design and development phases of architecture. These are the selected experiences I�ve encountered in college and enjoyed, but could possibly alter as I am immersed into new things.
+A general overview of the digressions you might find, if not now but in the future, are working code snippets done in processing and possibly incorporating arduino, maybe some grasshopper definitions or parametric revit models (beta dynamo), and hopefully some 3D printings or fabrication of a printer itself.
+
+WHY:  It�s on one hand a showcase of skills and an archive of interests, but on the other it could be seen as a collection of knowledge (interest previously stated) where someone could hopefully find something helpful/useful/resourceful either on this site or the other ones listed. It�s always better to give than receive; if you have any questions just visit my contact page.
+The web is great for creative (collaborative) ideas and this site can hopefully streamline ideas for people with like minded thoughts/interests/perceptions. Even if you don�t like, understand, or still don�t know what to do� I feel anyone can appreciate the play section. Have fun. Stay curious.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Filter Categories (v1)
