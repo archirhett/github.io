@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Accordion Menu with Submenu</title>
+    <style>
+      .accordion-menu {
+        width: 250px;
+      }
+
+      .accordion-header {
+        padding: 10px;
+        /*background-color: #f0f0f0; */
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .accordion-content {
+        display: none;
+        padding: 5px;
+      }
+
+      .submenu {
+        list-style: none;
+        padding-left: 10px;
+        margin: 0;
+      }
+
+      .submenu-item {
+        padding-top: 5px;
+      }
+
+      .active {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="accordion-menu">
+      <div class="accordion-header">
+        HOME
+        <span class="arrow">-</span>
+      </div>
+      <div class="accordion-content">
+        <ul class="submenu">
+          <li class="submenu-item">_⌂_</li>
+          <li class="submenu-item">-about</li>
+          <li class="submenu-item">-contact</li>
+        </ul>
+      </div>
+      <div class="accordion-header">
+        WORK
+        <span class="arrow">-</span>
+      </div>
+      <div class="accordion-content">
+        <ul class="submenu">
+          <li class="submenu-item">-portfolio</li>
+          <li class="submenu-item">-projects</li>
+          <li class="submenu-item">-resources</li>
+        </ul>
+      </div>
+      <div class="accordion-header">
+        PLAY
+        <span class="arrow">-</span>
+      </div>
+      <div class="accordion-content">
+        <ul class="submenu">
+          <li class="submenu-item">-create</li>
+          <li class="submenu-item">-explore</li>
+          <li class="submenu-item">-socials</li>
+          <li class="submenu-item">-collaborate</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      const accordionHeaders = document.querySelectorAll(".accordion-header");
+
+      accordionHeaders.forEach((header) => {
+        header.addEventListener("mouseover", () => {
+          const content = header.nextElementSibling;
+          const arrow = header.querySelector(".arrow");
+
+          // Close other open accordion items
+          document
+            .querySelectorAll(".accordion-content")
+            .forEach((otherContent) => {
+              if (
+                otherContent !== content &&
+                otherContent.classList.contains("active")
+              ) {
+                otherContent.classList.remove("active");
+                otherContent.previousElementSibling.querySelector(
+                  ".arrow"
+                ).innerHTML = "-";
+              }
+            });
+
+          content.classList.toggle("active");
+          arrow.innerHTML = content.classList.contains("active") ? "-" : "-";
+        });
+      });
+    </script>
+  </body>
+</html>

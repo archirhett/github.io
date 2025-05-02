@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>archirhett</title>
+    <link rel="stylesheet" href="portGallery.css" />
+
+    <div class="featured_projects" unique-script-id="w-w-dm-id">
+      <div class="container-block bg">
+        <p class="text-blk heading">Featured Projects</p>
+        <div class="responsive-container-block opt-cont">
+          <p class="text-blk tab tab-active" data-filter="all">All</p>
+          <p class="text-blk tab" data-filter="webdes">Web Design</p>
+          <p class="text-blk tab" data-filter="graphdes">Graphics Design</p>
+          <p class="text-blk tab" data-filter="webdev">Web Development</p>
+          <p class="text-blk tab" data-filter="mobdev">Mobile Development</p>
+        </div>
+        <div class="responsive-container-block content">
+          <div class="responsive-container-block img webdes webdev">
+            <img
+              class="im image-block"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/P7.3.png"
+            />
+            <div class="responsive-container-block overlay"></div>
+            <div class="responsive-container-block desc">
+              <p class="text-blk title">Service Rendered</p>
+              <p class="text-blk info">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur
+              </p>
+            </div>
+          </div>
+          <div class="responsive-container-block img webdes webdev">
+            <div
+              class="responsive-container-block overlay overlay-visible"
+            ></div>
+            <div class="responsive-container-block desc">
+              <p class="text-blk title">Service Rendered</p>
+              <p class="text-blk info">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur
+              </p>
+            </div>
+            <img
+              class="im"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/P7.1.png"
+            />
+          </div>
+          <div class="responsive-container-block img webdes webdev">
+            <div class="responsive-container-block overlay"></div>
+            <div class="responsive-container-block desc">
+              <p class="text-blk title">Service Rendered</p>
+              <p class="text-blk info">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur
+              </p>
+            </div>
+            <img
+              class="im"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/P7.3.png"
+            />
+          </div>
+          <div class="responsive-container-block img graphdes mobdev">
+            <img
+              class="im"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/P7.1.png"
+            />
+            <div class="responsive-container-block overlay"></div>
+            <div class="responsive-container-block desc">
+              <p class="text-blk title">Service Rendered</p>
+              <p class="text-blk info">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur
+              </p>
+            </div>
+          </div>
+          <div class="responsive-container-block img graphdes mobdev">
+            <div class="responsive-container-block overlay"></div>
+            <div class="responsive-container-block desc">
+              <p class="text-blk title">Service Rendered</p>
+              <p class="text-blk info">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur
+              </p>
+            </div>
+            <img
+              class="im"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/P7.3.png"
+            />
+          </div>
+          <div class="responsive-container-block img graphdes mobdev">
+            <img
+              class="im"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/P7.1.png"
+            />
+            <div class="responsive-container-block overlay"></div>
+            <div class="responsive-container-block desc">
+              <p class="text-blk title">Service Rendered</p>
+              <p class="text-blk info">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit. Lorem
+                ipsum dolor sit amet, consectetur
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $("[unique-script-id='w-w-dm-id'] .img .desc").hide();
+
+        $("[unique-script-id='w-w-dm-id'] .img").mouseenter(function (item) {
+          $("[unique-script-id='w-w-dm-id'] .img .overlay").removeClass(
+            "overlay-visible"
+          );
+          $("[unique-script-id='w-w-dm-id'] .img .desc").hide();
+          $("#" + $(item.currentTarget).attr("id") + " .overlay").addClass(
+            "overlay-visible"
+          );
+          $("#" + $(item.currentTarget).attr("id") + " .desc").show();
+          console.log(item.currentTarget);
+        });
+        $("[unique-script-id='w-w-dm-id'] .tab").click(function () {
+          const value = $(this).attr("data-filter");
+          if (value == "all") {
+            $("[unique-script-id='w-w-dm-id'] .img").show("5000");
+          } else {
+            $("[unique-script-id='w-w-dm-id'] .img")
+              .not("." + value)
+              .hide("5000");
+            $("[unique-script-id='w-w-dm-id'] .img")
+              .filter("." + value)
+              .show("5000");
+          }
+        });
+
+        $("[unique-script-id='w-w-dm-id'] .tab").click(function () {
+          $(this).addClass("tab-active").siblings().removeClass("tab-active");
+        });
+      });
+    </script>
+  </head>
+</html>
